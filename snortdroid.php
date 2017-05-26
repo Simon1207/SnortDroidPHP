@@ -13,7 +13,7 @@ if(!$seleccionaBD){
 	echo "Database not found";
 	return; 
 }
-		$response=mysqli_query($connection,"select * from persona");
+		$response=mysqli_query($connection,"select * from acid_event");
 		//The var $response takes the value: true/false 
 
 		$vector=mysqli_fetch_row($response);
